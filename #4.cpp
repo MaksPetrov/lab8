@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_ALL, "Russian");
     int x, y;
     cout << "x = ";
     cin >> x;
@@ -24,5 +25,9 @@ int main()
     if(x>0 && y<0)
     {
         cout << 4;
+    }
+    if(x==0 && y==0)
+    {
+        cout << "Начало координат";
     }
 }
